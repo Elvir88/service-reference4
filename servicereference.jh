@@ -1,0 +1,87 @@
+/** Дом */
+entity House {
+	houseId Integer required
+}
+
+/** Локация */
+entity Location {
+	title String required
+}
+
+/** Услуга */
+entity Service {
+	serviceId String required unique
+    title String required
+}
+
+/** Услуга в локации */
+entity ServiceOnLocation {
+	datefrom Instant required
+    dateTo Instant
+}
+
+entity Tariff {
+	title String required
+	cost BigDecimal required
+}
+
+entity TariffGroup {
+	title String required
+}
+
+entity PromotionOnLocation {
+	title String required
+	dateFrom Instant required
+	dateTo Instant
+}
+
+entity PacketDiscount {
+	title String required
+    cost BigDecimal required
+}
+
+entity MarketingResearch {
+	title String required
+}
+
+entity ServiceInPacketDiscount {
+	coefficient Float required max(1) min(0)
+}
+
+entity ContractPattern {
+	title String required
+    patternId Integer required
+}
+
+relationship OneToMany {
+    Location to House{location(title)}, 
+    //TariffGroup{tariff} to Tariff, 
+    Location to ServiceOnLocation{location(title)},
+    Location to PromotionOnLocation{location(title)},
+    PacketDiscount 
+    to ServiceInPacketDiscount{packetDiscount(title)},
+    
+}
+
+relationship OneToOne {
+    ServiceOnLocation{service(title)} to Service,
+    ServiceOnLocation{tariffGroup(title)} to TariffGroup,
+    ServiceOnLocation{pattern(title)} to ContractPattern,
+    Service{parent(title)} to Service, 
+    PromotionOnLocation{packetDiscount(title)} to PacketDiscount,
+    ServiceInPacketDiscount{service(title)} to Service,
+    ServiceInPacketDiscount{tariff(title)} to Tariff,
+    MarketingResearch{service(title)} to Service,
+    MarketingResearch{tariff(title)} to Tariff,
+    PromotionOnLocation{marketingResearch(title)} to MarketingResearch
+}
+
+relationship ManyToMany {
+Tariff{tariffGroup(title)} to TariffGroup{tariff(title)}
+}
+
+// Set pagination options
+paginate Location, House, Service, ServiceOnLocation,
+Tariff, TariffGroup, ContractPattern, 
+PromotionOnLocation, PacketDiscount, MarketingResearch with pagination
+
