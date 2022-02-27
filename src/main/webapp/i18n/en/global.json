@@ -7,6 +7,17 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "house": "House",
+        "location": "Location",
+        "service": "Service",
+        "serviceOnLocation": "Service On Location",
+        "tariff": "Tariff",
+        "tariffGroup": "Tariff Group",
+        "promotionOnLocation": "Promotion On Location",
+        "packetDiscount": "Packet Discount",
+        "marketingResearch": "Marketing Research",
+        "serviceInPacketDiscount": "Service In Packet Discount",
+        "contractPattern": "Contract Pattern",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

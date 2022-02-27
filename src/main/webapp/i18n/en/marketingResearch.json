@@ -1,0 +1,26 @@
+{
+  "serviceReference4App": {
+    "marketingResearch": {
+      "home": {
+        "title": "Marketing Researches",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Marketing Research",
+        "createOrEditLabel": "Create or edit a Marketing Research",
+        "notFound": "No Marketing Researches found"
+      },
+      "created": "A new Marketing Research is created with identifier {{ param }}",
+      "updated": "A Marketing Research is updated with identifier {{ param }}",
+      "deleted": "A Marketing Research is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Marketing Research {{ id }}?"
+      },
+      "detail": {
+        "title": "Marketing Research"
+      },
+      "id": "ID",
+      "title": "Title",
+      "service": "Service",
+      "tariff": "Tariff"
+    }
+  }
+}

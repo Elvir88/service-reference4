@@ -1,0 +1,25 @@
+{
+  "serviceReference4App": {
+    "contractPattern": {
+      "home": {
+        "title": "Contract Patterns",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Contract Pattern",
+        "createOrEditLabel": "Create or edit a Contract Pattern",
+        "notFound": "No Contract Patterns found"
+      },
+      "created": "A new Contract Pattern is created with identifier {{ param }}",
+      "updated": "A Contract Pattern is updated with identifier {{ param }}",
+      "deleted": "A Contract Pattern is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Contract Pattern {{ id }}?"
+      },
+      "detail": {
+        "title": "Contract Pattern"
+      },
+      "id": "ID",
+      "title": "Title",
+      "patternId": "Pattern Id"
+    }
+  }
+}

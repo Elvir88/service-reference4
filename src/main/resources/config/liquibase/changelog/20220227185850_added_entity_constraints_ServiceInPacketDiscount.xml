@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity ServiceInPacketDiscount.
+    -->
+    <changeSet id="20220227185850-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="service_id"
+                                 baseTableName="service_in_packet_discount"
+                                 constraintName="fk_service_in_packet_discount__service_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="service"/>
+
+        <addForeignKeyConstraint baseColumnNames="tariff_id"
+                                 baseTableName="service_in_packet_discount"
+                                 constraintName="fk_service_in_packet_discount__tariff_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tariff"/>
+
+        <addForeignKeyConstraint baseColumnNames="packet_discount_id"
+                                 baseTableName="service_in_packet_discount"
+                                 constraintName="fk_service_in_packet_discount__packet_discount_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="packet_discount"/>
+    </changeSet>
+</databaseChangeLog>

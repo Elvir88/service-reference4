@@ -1,0 +1,26 @@
+{
+  "serviceReference4App": {
+    "packetDiscount": {
+      "home": {
+        "title": "Packet Discounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Packet Discount",
+        "createOrEditLabel": "Create or edit a Packet Discount",
+        "notFound": "No Packet Discounts found"
+      },
+      "created": "A new Packet Discount is created with identifier {{ param }}",
+      "updated": "A Packet Discount is updated with identifier {{ param }}",
+      "deleted": "A Packet Discount is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Packet Discount {{ id }}?"
+      },
+      "detail": {
+        "title": "Packet Discount"
+      },
+      "id": "ID",
+      "title": "Title",
+      "cost": "Cost",
+      "serviceInPacketDiscount": "Service In Packet Discount"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "serviceReference4App": {
+    "tariff": {
+      "home": {
+        "title": "Tariffs",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Tariff",
+        "createOrEditLabel": "Создать или отредактировать Tariff",
+        "notFound": "Tariffs не найдено"
+      },
+      "created": "Новый Tariff создан с идентификатором {{ param }}",
+      "updated": "Tariff обновлен с идентификатором {{ param }}",
+      "deleted": "Tariff удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tariff {{ id }}?"
+      },
+      "detail": {
+        "title": "Tariff"
+      },
+      "id": "ID",
+      "title": "Title",
+      "cost": "Cost",
+      "tariffGroup": "Tariff Group"
+    }
+  }
+}

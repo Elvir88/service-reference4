@@ -1,0 +1,26 @@
+{
+  "serviceReference4App": {
+    "marketingResearch": {
+      "home": {
+        "title": "Marketing Researches",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Marketing Research",
+        "createOrEditLabel": "Создать или отредактировать Marketing Research",
+        "notFound": "Marketing Researches не найдено"
+      },
+      "created": "Новый Marketing Research создан с идентификатором {{ param }}",
+      "updated": "Marketing Research обновлен с идентификатором {{ param }}",
+      "deleted": "Marketing Research удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Marketing Research {{ id }}?"
+      },
+      "detail": {
+        "title": "Marketing Research"
+      },
+      "id": "ID",
+      "title": "Title",
+      "service": "Service",
+      "tariff": "Tariff"
+    }
+  }
+}

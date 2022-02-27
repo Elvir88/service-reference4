@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity ServiceOnLocation.
+    -->
+    <changeSet id="20220227185844-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="service_id"
+                                 baseTableName="service_on_location"
+                                 constraintName="fk_service_on_location__service_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="service"/>
+
+        <addForeignKeyConstraint baseColumnNames="tariff_group_id"
+                                 baseTableName="service_on_location"
+                                 constraintName="fk_service_on_location__tariff_group_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tariff_group"/>
+
+        <addForeignKeyConstraint baseColumnNames="pattern_id"
+                                 baseTableName="service_on_location"
+                                 constraintName="fk_service_on_location__pattern_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="contract_pattern"/>
+
+        <addForeignKeyConstraint baseColumnNames="location_id"
+                                 baseTableName="service_on_location"
+                                 constraintName="fk_service_on_location__location_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+    </changeSet>
+</databaseChangeLog>

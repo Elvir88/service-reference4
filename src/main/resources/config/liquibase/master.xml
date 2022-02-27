@@ -15,7 +15,25 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185841_added_entity_House.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185842_added_entity_Location.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185843_added_entity_Service.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185844_added_entity_ServiceOnLocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185845_added_entity_Tariff.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185846_added_entity_TariffGroup.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185847_added_entity_PromotionOnLocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185848_added_entity_PacketDiscount.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185849_added_entity_MarketingResearch.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185850_added_entity_ServiceInPacketDiscount.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185851_added_entity_ContractPattern.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220227185841_added_entity_constraints_House.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185843_added_entity_constraints_Service.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185844_added_entity_constraints_ServiceOnLocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185845_added_entity_constraints_Tariff.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185847_added_entity_constraints_PromotionOnLocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185849_added_entity_constraints_MarketingResearch.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220227185850_added_entity_constraints_ServiceInPacketDiscount.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

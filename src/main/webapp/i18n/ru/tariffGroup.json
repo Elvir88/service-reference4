@@ -1,0 +1,25 @@
+{
+  "serviceReference4App": {
+    "tariffGroup": {
+      "home": {
+        "title": "Tariff Groups",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Tariff Group",
+        "createOrEditLabel": "Создать или отредактировать Tariff Group",
+        "notFound": "Tariff Groups не найдено"
+      },
+      "created": "Новый Tariff Group создан с идентификатором {{ param }}",
+      "updated": "Tariff Group обновлен с идентификатором {{ param }}",
+      "deleted": "Tariff Group удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tariff Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Tariff Group"
+      },
+      "id": "ID",
+      "title": "Title",
+      "tariff": "Tariff"
+    }
+  }
+}

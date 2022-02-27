@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227185845",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "tariff",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "cost",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Tariff",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "tariffGroup",
+      "otherEntityRelationshipName": "tariff",
+      "ownerSide": true,
+      "relationshipName": "tariffGroup",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}
