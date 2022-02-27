@@ -1,0 +1,29 @@
+{
+  "serviceReference4App": {
+    "promotionOnLocation": {
+      "home": {
+        "title": "Promotion On Locations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Promotion On Location",
+        "createOrEditLabel": "Create or edit a Promotion On Location",
+        "notFound": "No Promotion On Locations found"
+      },
+      "created": "A new Promotion On Location is created with identifier {{ param }}",
+      "updated": "A Promotion On Location is updated with identifier {{ param }}",
+      "deleted": "A Promotion On Location is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Promotion On Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Promotion On Location"
+      },
+      "id": "ID",
+      "title": "Title",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "packetDiscount": "Packet Discount",
+      "marketingResearch": "Marketing Research",
+      "location": "Location"
+    }
+  }
+}

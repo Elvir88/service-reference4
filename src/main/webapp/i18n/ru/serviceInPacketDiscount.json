@@ -1,0 +1,27 @@
+{
+  "serviceReference4App": {
+    "serviceInPacketDiscount": {
+      "home": {
+        "title": "Service In Packet Discounts",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Service In Packet Discount",
+        "createOrEditLabel": "Создать или отредактировать Service In Packet Discount",
+        "notFound": "Service In Packet Discounts не найдено"
+      },
+      "created": "Новый Service In Packet Discount создан с идентификатором {{ param }}",
+      "updated": "Service In Packet Discount обновлен с идентификатором {{ param }}",
+      "deleted": "Service In Packet Discount удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Service In Packet Discount {{ id }}?"
+      },
+      "detail": {
+        "title": "Service In Packet Discount"
+      },
+      "id": "ID",
+      "coefficient": "Coefficient",
+      "service": "Service",
+      "tariff": "Tariff",
+      "packetDiscount": "Packet Discount"
+    }
+  }
+}

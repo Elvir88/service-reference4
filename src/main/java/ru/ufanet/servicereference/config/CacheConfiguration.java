@@ -51,6 +51,23 @@ public class CacheConfiguration {
             createCache(cm, ru.ufanet.servicereference.domain.User.class.getName());
             createCache(cm, ru.ufanet.servicereference.domain.Authority.class.getName());
             createCache(cm, ru.ufanet.servicereference.domain.User.class.getName() + ".authorities");
+            createCache(cm, ru.ufanet.servicereference.domain.House.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.Location.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.Location.class.getName() + ".houses");
+            createCache(cm, ru.ufanet.servicereference.domain.Location.class.getName() + ".serviceOnLocations");
+            createCache(cm, ru.ufanet.servicereference.domain.Location.class.getName() + ".promotionOnLocations");
+            createCache(cm, ru.ufanet.servicereference.domain.Service.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.ServiceOnLocation.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.Tariff.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.Tariff.class.getName() + ".tariffGroups");
+            createCache(cm, ru.ufanet.servicereference.domain.TariffGroup.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.TariffGroup.class.getName() + ".tariffs");
+            createCache(cm, ru.ufanet.servicereference.domain.PromotionOnLocation.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.PacketDiscount.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.PacketDiscount.class.getName() + ".serviceInPacketDiscounts");
+            createCache(cm, ru.ufanet.servicereference.domain.MarketingResearch.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.ServiceInPacketDiscount.class.getName());
+            createCache(cm, ru.ufanet.servicereference.domain.ContractPattern.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

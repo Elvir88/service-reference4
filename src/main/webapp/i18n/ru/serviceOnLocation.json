@@ -1,0 +1,29 @@
+{
+  "serviceReference4App": {
+    "serviceOnLocation": {
+      "home": {
+        "title": "Service On Locations",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Service On Location",
+        "createOrEditLabel": "Создать или отредактировать Service On Location",
+        "notFound": "Service On Locations не найдено"
+      },
+      "created": "Новый Service On Location создан с идентификатором {{ param }}",
+      "updated": "Service On Location обновлен с идентификатором {{ param }}",
+      "deleted": "Service On Location удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Service On Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Service On Location"
+      },
+      "id": "ID",
+      "datefrom": "Datefrom",
+      "dateTo": "Date To",
+      "service": "Service",
+      "tariffGroup": "Tariff Group",
+      "pattern": "Pattern",
+      "location": "Location"
+    }
+  }
+}

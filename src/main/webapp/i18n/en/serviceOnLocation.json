@@ -1,0 +1,29 @@
+{
+  "serviceReference4App": {
+    "serviceOnLocation": {
+      "home": {
+        "title": "Service On Locations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Service On Location",
+        "createOrEditLabel": "Create or edit a Service On Location",
+        "notFound": "No Service On Locations found"
+      },
+      "created": "A new Service On Location is created with identifier {{ param }}",
+      "updated": "A Service On Location is updated with identifier {{ param }}",
+      "deleted": "A Service On Location is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Service On Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Service On Location"
+      },
+      "id": "ID",
+      "datefrom": "Datefrom",
+      "dateTo": "Date To",
+      "service": "Service",
+      "tariffGroup": "Tariff Group",
+      "pattern": "Pattern",
+      "location": "Location"
+    }
+  }
+}

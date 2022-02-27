@@ -1,0 +1,25 @@
+{
+  "serviceReference4App": {
+    "house": {
+      "home": {
+        "title": "Houses",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый House",
+        "createOrEditLabel": "Создать или отредактировать House",
+        "notFound": "Houses не найдено"
+      },
+      "created": "Новый House создан с идентификатором {{ param }}",
+      "updated": "House обновлен с идентификатором {{ param }}",
+      "deleted": "House удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить House {{ id }}?"
+      },
+      "detail": {
+        "title": "House"
+      },
+      "id": "ID",
+      "houseId": "House Id",
+      "location": "Location"
+    }
+  }
+}

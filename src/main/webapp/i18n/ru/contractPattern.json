@@ -1,0 +1,25 @@
+{
+  "serviceReference4App": {
+    "contractPattern": {
+      "home": {
+        "title": "Contract Patterns",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Contract Pattern",
+        "createOrEditLabel": "Создать или отредактировать Contract Pattern",
+        "notFound": "Contract Patterns не найдено"
+      },
+      "created": "Новый Contract Pattern создан с идентификатором {{ param }}",
+      "updated": "Contract Pattern обновлен с идентификатором {{ param }}",
+      "deleted": "Contract Pattern удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Contract Pattern {{ id }}?"
+      },
+      "detail": {
+        "title": "Contract Pattern"
+      },
+      "id": "ID",
+      "title": "Title",
+      "patternId": "Pattern Id"
+    }
+  }
+}

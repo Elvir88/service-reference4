@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227185842",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "location",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Локация",
+  "jpaMetamodelFiltering": false,
+  "name": "Location",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "house",
+      "otherEntityRelationshipName": "location",
+      "relationshipName": "house",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "serviceOnLocation",
+      "otherEntityRelationshipName": "location",
+      "relationshipName": "serviceOnLocation",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "promotionOnLocation",
+      "otherEntityRelationshipName": "location",
+      "relationshipName": "promotionOnLocation",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

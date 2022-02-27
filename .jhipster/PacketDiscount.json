@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227185848",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "packet_discount",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "cost",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PacketDiscount",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "serviceInPacketDiscount",
+      "otherEntityRelationshipName": "packetDiscount",
+      "relationshipName": "serviceInPacketDiscount",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

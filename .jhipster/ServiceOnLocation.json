@@ -1,0 +1,58 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227185844",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "service_on_location",
+  "fields": [
+    {
+      "fieldName": "datefrom",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dateTo",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Услуга в локации",
+  "jpaMetamodelFiltering": false,
+  "name": "ServiceOnLocation",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "service",
+      "otherEntityRelationshipName": "serviceOnLocation",
+      "ownerSide": true,
+      "relationshipName": "service",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "tariffGroup",
+      "otherEntityRelationshipName": "serviceOnLocation",
+      "ownerSide": true,
+      "relationshipName": "tariffGroup",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "contractPattern",
+      "otherEntityRelationshipName": "serviceOnLocation",
+      "ownerSide": true,
+      "relationshipName": "pattern",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "location",
+      "otherEntityRelationshipName": "serviceOnLocation",
+      "relationshipName": "location",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

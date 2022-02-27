@@ -1,0 +1,29 @@
+{
+  "serviceReference4App": {
+    "promotionOnLocation": {
+      "home": {
+        "title": "Promotion On Locations",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Promotion On Location",
+        "createOrEditLabel": "Создать или отредактировать Promotion On Location",
+        "notFound": "Promotion On Locations не найдено"
+      },
+      "created": "Новый Promotion On Location создан с идентификатором {{ param }}",
+      "updated": "Promotion On Location обновлен с идентификатором {{ param }}",
+      "deleted": "Promotion On Location удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Promotion On Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Promotion On Location"
+      },
+      "id": "ID",
+      "title": "Title",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "packetDiscount": "Packet Discount",
+      "marketingResearch": "Marketing Research",
+      "location": "Location"
+    }
+  }
+}
